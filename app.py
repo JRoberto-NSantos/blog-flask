@@ -1,0 +1,13 @@
+from flask import Flask, render_template
+
+app = Flask("hello")
+
+@app.route("/")
+@app.route("/hello")
+def hello():
+    return "Hello World!!!"
+
+@app.route("/meucontato")
+@app.route("/contato")    
+def meuContato():
+    return render_template('contato.html')
