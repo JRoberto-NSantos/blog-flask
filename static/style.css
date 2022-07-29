@@ -64,3 +64,8 @@ hr{
 .content input{
     margin-bottom: 1em;
 }
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
